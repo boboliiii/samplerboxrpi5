@@ -54,10 +54,10 @@ sudo apt install liblgpio-dev
 pip3 install rpi-lgpio
 
 
-***issues with sounds.py (chunk problems) i saved all the fixes of sounds.py, it no longer uses chunk library, just waveread**
+***issues with sounds.py (chunk problems) i saved all the fixes of sounds.py, i'm a bad person, i used chatGPT to help me fix it. strangely it seems to still use Chunk, but works for me.  feel free to troubleshoot further, basically chunk is a depreciated library, it<s been replaced with waveread. long story short use my sounds.py and should work**
 
 
-** replaced a ton of stuff in rtmidi2.pyx , see attached file **
+** replaced a ton of stuff in rtmidi2.pyx i think i also used ChatGPT to "fix" it, see attached file .. this is just to get stuff running a better programmer than me needs to take a look at any changes.  i'm using samplerbox with GPIO inputs and not midi so i'm not even sure if midi works properly, i would assume so but thought i would put full disclosure here**
 
 
 ------------
