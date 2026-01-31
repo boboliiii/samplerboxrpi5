@@ -7,6 +7,10 @@ long story short, there is a couple of dependencies which are a bit finnicky to 
 
 you can start with regular raspberry pi 5 image, i used the instructions here to get an RT-PREEMPT version (lower latency).  it's quite a bit of extra compiling to make the image https://github.com/remusmp/rpi-rt-kernel
 
+i suggest you try and edit this file, or read it in an external viewer, github seems to get rid of all carriage returns and puts all sorts of instructions on the same line..
+
+
+
 step by step of the actual samplerbox install:
 
 **making virtual environment**
